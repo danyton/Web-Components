@@ -135,6 +135,21 @@ class CardNews extends HTMLElement{
           .card:hover img {
             transform: scale(1.1);
           }
+
+           @media screen and (max-width: 768px) {
+            .card {
+                flex-wrap: wrap;
+                margin: 0;
+            }
+        
+            .card_left {
+                flex: 1 1 100%;
+            }
+        
+            .card_right {
+                flex: 1 1 100%;
+            }
+        }
         
         `;
 
